@@ -1,0 +1,35 @@
+/* .imgStory img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: 0 8px 0 15px;
+}
+
+.Story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.Story {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.Story .imgStory img {
+    width: 70px;
+    border-radius: 50px;
+}
+
+.Story .imgStory img:hover {
+    width: 70px;
+    border-radius: 50px;
+    opacity: 0.6;
+    transition: 0.6s;
+}
+
+.Story .nomeStory {
+    text-align: center;
+    font-size: 11px;
+}

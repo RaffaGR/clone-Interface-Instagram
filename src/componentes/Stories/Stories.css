@@ -1,0 +1,11 @@
+.Stories {
+    display: flex;
+    flex-direction: row;
+    background: #ffddb0;
+    border: 1px solid #ffc4c4;
+    border-radius: 20px;
+    height: auto;
+    width: 300px;
+    overflow-x: scroll;
+    margin: 20px 0;
+}

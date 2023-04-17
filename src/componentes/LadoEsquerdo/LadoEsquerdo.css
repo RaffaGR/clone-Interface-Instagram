@@ -1,0 +1,39 @@
+.LadoEsquerdo {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    height: auto;
+    /* width: 100%; */
+    width: auto;
+    margin: 20px 20px;
+    background: red;
+}
+
+.logo img {
+    height: auto;
+    width: 100%;
+}
+
+.menu-principal {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+}
+
+.menu-principal span {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.icone {
+    color:red; 
+    font-size: 30px;
+}
+
+.icone svg {
+    color:blue; 
+    width: 30px;
+}
