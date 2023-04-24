@@ -2,25 +2,86 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  border: 0;
+  outline: 0;
 }
 
-.LadoEsquerdo,
-.Centro,
-.LadoDireito {
-  height: 100vh;
+html, body, #root {
+  max-width: 100vw;
+  max-height: 100vh;
+
+  width: 100%;
+  height: 100%;
 }
 
 .LadoEsquerdo {
   background: #FFFFFF;
   border-right: 1px solid #ccc;
   width: 20vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
 } 
 
 .LadoDireito {
-  width: 15vw;
+  width: 23vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-left: 1px solid var(--tertiarysss);
+  margin-right: 25px;
 }
-/* 
+
+html {
+  background: var(--background-mas);
+}
+
+p, span {
+  color: var(--primary);
+}
+
+:root {
+  --background-mas: white;
+  --background: #fefefe;
+  --primary: #252620;
+  --secondary: #8a88a8;
+  --tertiarysss: #ccc;
+  --quartary: #acacfc;
+  --border: #bdbdbd;
+  --border-secondary: rgb(255, 255, 255);
+}
+
 .Centro {
-  
-} */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 55vw;
+}
+
+@media screen and (max-width: 600px) {
+  .LadoEsquerdo {
+    background: #FFFFFF;
+    border-right: 1px solid #ccc;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    margin-right: 5px;
+  } 
+  .Centro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+  }
+
+  .LadoDireito {
+    margin-left: 5px;
+    margin-right: 35px;
+    width: 15vw;
+  }
+}
+
 /* isso sobrepoem todos os outros */

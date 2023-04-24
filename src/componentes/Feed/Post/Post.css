@@ -1,13 +1,15 @@
 .Post {
     background: #FEFEFE;
     margin: 12px 0 0 0;
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 25px;
 }
 
 .ConteudoPost {
-    background: #cacaca;
     max-width: 400px;
     max-height: 400px;
-} 
+    border-radius: 20px;
+}
 
 .ConteudoPost img {
     width: 368px;
@@ -15,20 +17,53 @@
     max-width: 400px;
     height: 468px;
     max-height: 400px;
+    border-radius: 0 0 25px 25px;
 }
 
 .BarraSuperior {
     height: 50px;
     display: flex;
     align-items: center;
+    align-content: space-between;
+    justify-content: space-between;
+    padding-right: 15px;
+    padding-left: 5px;
+    padding-top: 0.3em;
 }
 
-.ImagemPerfilAutor > img {
-    background: red;
+.ImagemPerfilAutor>img {
     border-radius: 20px;
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
     margin: 0 8px 0 8px;
+    border: 2px solid transparent;
+    padding: 1px;
+    background: linear-gradient(white, white) padding-box, linear-gradient(to right, #9cffeb, #870be6, #00d6f7) border-box;
+    cursor: pointer;
 }
 
-/* Para tornar isso responsivel, podemos fazer um calculo de variavel, o width e height é reduzido de acordo com a tela, se acaso a tela for 7/10, automaticamente identifica que isso é 7/10 e reduzi os 3 - sentido de partes ou scala ou divisão - razão*/
+.ImagemPerfilAutor>img:hover {
+    opacity: 0.7;
+    transition: 0.7s;
+}
+
+@media screen and (max-width: 600px) {
+
+    .ConteudoPost {
+        background: #cacaca;
+        max-width: 200px;
+    }
+
+    .ConteudoPost img {
+        width: 368px;
+        min-width: 118px;
+        max-width: 200px;
+        border-radius: 0 0 25px 25px;
+        /* object-fit: cover; */
+        aspect-ratio: 16 / 9;
+    }
+
+    .Post {
+        border-radius: 25px;
+    }
+}

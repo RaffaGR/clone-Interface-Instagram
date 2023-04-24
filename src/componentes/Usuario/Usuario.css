@@ -1,0 +1,29 @@
+.Usuario img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    padding: 1px;
+    background: linear-gradient(white, white) padding-box, linear-gradient(to right, #ff9ce0, #37e60b, #f700c5) border-box;
+	cursor: pointer;
+    margin: 10px 0px 0px 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .Usuario img{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 1px solid transparent;
+        padding: 2px;
+        background: linear-gradient(white, white) padding-box, linear-gradient(to right, #ff9ce0, #37e60b, #f700c5) border-box;
+        cursor: pointer;
+        margin: 0;
+        margin: 10px 0px 0px 0%;
+    }
+}
+
+.Usuario img:hover {
+    opacity: 0.7;
+    transition: 0.7s;
+}

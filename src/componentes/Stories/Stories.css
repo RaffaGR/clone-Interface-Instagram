@@ -1,11 +1,23 @@
 .Stories {
     display: flex;
     flex-direction: row;
-    background: #ffddb0;
-    border: 1px solid #ffc4c4;
+    border: 1px solid rgb(217, 217, 217);
     border-radius: 20px;
     height: auto;
-    width: 300px;
+    width: 450px;
     overflow-x: scroll;
     margin: 20px 0;
+}
+
+@media screen and (max-width: 600px) {
+	.Stories {
+        display: flex;
+        flex-direction: row;
+        border: 1px solid rgb(217, 217, 217);
+        border-radius: 20px;
+        height: auto;
+        width: 200px;
+        overflow-x: scroll;
+        margin: 20px 0;
+    }
 }

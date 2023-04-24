@@ -1,16 +1,3 @@
-/* .imgStory img {
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    margin: 0 8px 0 15px;
-}
-
-.Story {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
-
 .Story {
     display: flex;
     flex-direction: column;
@@ -19,7 +6,12 @@
 
 .Story .imgStory img {
     width: 70px;
-    border-radius: 50px;
+    height: 70px;
+    border-radius: 50em;
+    border: 3px solid transparent;
+    padding: 1px;
+    background: linear-gradient(white, white) padding-box, linear-gradient(to right, #ff9c9c, #870be6, #f700c5) border-box;
+	cursor: pointer;
 }
 
 .Story .imgStory img:hover {
@@ -32,4 +24,8 @@
 .Story .nomeStory {
     text-align: center;
     font-size: 11px;
+}
+
+:root {
+    --background: red;
 }

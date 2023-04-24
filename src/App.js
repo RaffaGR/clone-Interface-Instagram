@@ -1,7 +1,9 @@
+import React from "react";
 import './App.css';
 import Feed from './componentes/Feed/Feed';
 import Stories from './componentes/Stories/Stories';
 import LadoEsquerdo from './componentes/LadoEsquerdo/LadoEsquerdo'
+import LadoDireito from './componentes/LadoDireito/LadoDireito'
 
 function App() {
   return (
@@ -15,9 +17,7 @@ function App() {
         {/* <div className='Feed'>Feed</div> */}
       </div>
 
-      <div className='LadoDireito'>
-        Lado Direito
-      </div>
+      <LadoDireito />
     </div>
   );
 }

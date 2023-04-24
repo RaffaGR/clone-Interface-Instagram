@@ -3,37 +3,52 @@
     flex-direction: column;
 }
 
-.logo {
-    height: auto;
-    /* width: 100%; */
-    width: auto;
-    margin: 20px 20px;
-    background: red;
+.LadoEsquerdo .logo {
+    margin: 20px 0px 0px 25px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50%;
 }
 
-.logo img {
-    height: auto;
-    width: 100%;
+@media screen and (max-width: 600px) {
+    .LadoEsquerdo .logo {
+        margin: 20px 0px 0px 45%;
+    }
+    .LadoEsquerdo {
+        margin-left: -5px;
+    }
+}
+
+.LadoEsquerdo .logo span {
+    margin-left: 5px;
+}
+
+.LadoEsquerdo .logo img {
+    height: 20px;
+    width: 20px;
+    position: fixed;
 }
 
 .menu-principal {
     display: flex;
     flex-direction: column;
-    margin: 20px 20px;
+    margin: 50px 25px;
+    position: fixed;
 }
 
 .menu-principal span {
     font-size: 16px;
     font-weight: bold;
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
-.icone {
-    color:red; 
-    font-size: 30px;
+.icone img {
+    width: auto;
+    height: 2.2vh;
 }
 
 .icone svg {
-    color:blue; 
-    width: 30px;
+    width: 2vh;
+    height: 2vh;
 }
+

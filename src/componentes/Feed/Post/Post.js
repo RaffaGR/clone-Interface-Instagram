@@ -2,7 +2,7 @@ import './Post.css';
 
 // props = propriedade
 
-export default function Post (props) {
+export default function Post(props) {
     return(
         <div className='Post'>
             <div className="BarraSuperior">
@@ -10,7 +10,7 @@ export default function Post (props) {
                 <div className="NomePerfilAutor">{props.nomePerfil}</div>
                 <div className="MenuBarraSuperior">...</div>
             </div>
-            <div className="ConteudoPost"><img src={props.imagemPost} /></div>
+            <div className="ConteudoPost"><img alt="text" src={props.imagemPost} /></div>
         </div>
 
     )

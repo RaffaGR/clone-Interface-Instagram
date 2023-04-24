@@ -1,0 +1,57 @@
+.LadoDireito {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: center;
+    font-size: 13px;
+}
+
+.LadoDireito .HeaderOthersM {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-left: 15px;
+    margin-right: -15px;
+}
+
+.LadoDireito .SeeAll {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.LadoDireito .Sugestion {
+    font-size: 15px;
+}
+
+.LadoDireito>.SeuMensager>.Mensager>.ImagemIconUsers>img {
+    width: 70px;
+    height: 70px;
+    border: 1px solid black !important;
+}
+
+@media screen and (max-width: 600px) {
+    .LadoDireito .HeaderOthersM {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    .LadoDireito .Sugestion {
+        font-style: italic;
+    }
+
+    .LadoDireito>.SeuMensager {
+        margin-top: 30px;
+    }
+
+    .LadoDireito>.SeuMensager>.Mensager>.ImagemIconUsers>img {
+        width: 55px;
+        height: 55px;
+    }
+}
