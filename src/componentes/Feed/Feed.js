@@ -1,5 +1,3 @@
-import './Feed.css';
-
 import Post from './Post/Post'
 
 import nomeImagem001 from './Post/Imagens/haranha.jpg';

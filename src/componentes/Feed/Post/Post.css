@@ -1,8 +1,9 @@
 .Post {
     background: #FEFEFE;
     margin: 12px 0 0 0;
-    border: 1px solid rgb(173, 173, 173);
-    border-radius: 25px;
+    /* border: 1px solid rgb(173, 173, 173); */
+    /* border-radius: 25px; */
+    border-radius: 25px 25px 0 0;
 }
 
 .ConteudoPost {
@@ -17,7 +18,7 @@
     max-width: 400px;
     height: 468px;
     max-height: 400px;
-    border-radius: 0 0 25px 25px;
+    /* border-radius: 0 0 25px 25px; */
     object-fit: cover;
 }
 
@@ -48,6 +49,30 @@
     transition: 0.7s;
 }
 
+.BarraInferior {
+    display: flex;
+    flex-direction: row;
+    /* display: block; */
+}
+
+.BarraInferior>* {
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 10px;
+    /* float: left; display: block; */
+}
+
+.BarraInferior div:last-child {
+    /* float: right; */
+    margin-left: 63%;
+}
+
+.BarraInferior img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
 @media screen and (max-width: 600px) {
 
     .ConteudoPost {
@@ -60,7 +85,7 @@
         width: auto;
         min-width: 118px;
         max-width: 300px;
-        border-radius: 0 0 25px 25px;
+        /* border-radius: 0 0 25px 25px; */
         /* object-fit: cover; */
         aspect-ratio: 16 / 9;
     }
@@ -69,5 +94,15 @@
         border-radius: 25px;
         max-width: 300px;
         margin: 20px 0 0 -15px;
+    }
+
+    .BarraInferior div:last-child {
+        margin-left: 67%;
+    }
+    
+    .BarraInferior img {
+        width: 15px;
+        height: 15px;
+        object-fit: cover;
     }
 }

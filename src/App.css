@@ -42,7 +42,7 @@ p, span {
 }
 
 :root {
-  --background-mas: white;
+  /* --background-mas: white; */
   --background: #fefefe;
   --primary: #252620;
   --secondary: #8a88a8;
