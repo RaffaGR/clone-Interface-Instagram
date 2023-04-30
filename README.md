@@ -4,6 +4,13 @@ Project test link
 for instagram page interface clone.
 </h3>
 
+<div align="center">
+  <p>For Windowns</p>
+  <img max-height="160em" src="https://github.com/RaffaGR/clone-Interface-Instagram/blob/main/windowns.png"/>
+  <p>For Android</p>
+  <img max-height="160em" src="https://github.com/RaffaGR/clone-Interface-Instagram/blob/main/Android.png"/>
+</div>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
