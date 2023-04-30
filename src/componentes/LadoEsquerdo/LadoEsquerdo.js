@@ -14,12 +14,13 @@ import { IoIosHeartEmpty } from "react-icons/io";
 import { IoMdAddCircleOutline } from "react-icons/io";
 /* Minha duvida, por acaso cada icone é uma funtion? pq eles são colocados no import e não no from
 Respondida, é pq aceita imagem tbm */
-let text = "         Instagram";
+/* let text = "         Instagram"; */
 export default function LadoEsquerdo() {
     return(
         <div className="LadoEsquerdo">
             <div className='logo'>
-                <img src={logo} alt='logotype' />
+                <img classname='log1' src={logo} alt='logotype' />
+                <img classname='log1' src={logo} alt='logotype' />
                 <span>{/* {text} */}</span>
             </div>
             <div className="menu-principal">
@@ -31,13 +32,13 @@ export default function LadoEsquerdo() {
                     <span>@</span>
                     <span>tx</span>
                 </span> */}
-                <ItemMenu icone={<MdHomeFilled /> } texto='Página Inicial'/>
+                <ItemMenu icone={<MdHomeFilled /> } texto='Página Inicial' />
                 <ItemMenu icone={<AiOutlineSearch /> }texto='Pesquisar'/>
                 <ItemMenu icone={<IoCompassOutline />} texto='Explorar'/>
-                <ItemMenu icone={<img src="https://img.icons8.com/windows/32/null/speech-bubble--v1.png"/>} texto='Mensagens'/>
+                <ItemMenu icone={<img src="https://img.icons8.com/windows/32/null/speech-bubble--v1.png" />} texto='Mensagens'/>
                 <ItemMenu icone={<IoIosHeartEmpty />} texto='Notificações'/>
                 <ItemMenu icone={<IoMdAddCircleOutline /> }texto='Criar'/>
-                <Usuario iconUser={iUser} />
+                <Usuario iconUser={iUser} texto='Dev_Junior'/>
             </div>
         </div>
     )

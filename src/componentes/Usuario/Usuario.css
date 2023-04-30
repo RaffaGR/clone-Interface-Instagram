@@ -1,25 +1,28 @@
 .Usuario img{
-    width: 70px;
-    height: 70px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
-    border: 3px solid transparent;
-    padding: 1px;
-    background: linear-gradient(white, white) padding-box, linear-gradient(to right, #ff9ce0, #37e60b, #f700c5) border-box;
-	cursor: pointer;
-    margin: 10px 0px 0px 50%;
+    align-items: center;
+    object-fit: cover;
+    background-position: 100px 100px;
+}
+
+.Usuario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Usuario .texto {
+    margin-left: 10px;
 }
 
 @media screen and (max-width: 600px) {
     .Usuario img{
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        border: 1px solid transparent;
-        padding: 2px;
-        background: linear-gradient(white, white) padding-box, linear-gradient(to right, #ff9ce0, #37e60b, #f700c5) border-box;
-        cursor: pointer;
-        margin: 0;
-        margin: 10px 0px 0px 0%;
+        width: 30px;
+        height: 30px;
+        margin-left: -7%;
     }
 }
 

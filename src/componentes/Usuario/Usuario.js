@@ -2,8 +2,9 @@ import './Usuario.css'
 
 export default function Usuario(props) {
     return (
-        <div className="Usuario">
-            <div className="user"><img alt="Text" src={props.iconUser}/></div>
-        </div>
+        <span className="Usuario">
+            <span className="user"><img alt="imag" src={props.iconUser}/></span>
+            <span className='texto'>{props.texto}</span>
+        </span>
     )
 }

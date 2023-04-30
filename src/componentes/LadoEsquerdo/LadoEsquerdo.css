@@ -10,15 +10,6 @@
     margin-left: 50%;
 }
 
-@media screen and (max-width: 600px) {
-    .LadoEsquerdo .logo {
-        margin: 20px 0px 0px 45%;
-    }
-    .LadoEsquerdo {
-        margin-left: -5px;
-    }
-}
-
 .LadoEsquerdo .logo span {
     margin-left: 5px;
 }
@@ -42,6 +33,10 @@
     margin: 15px 0;
 }
 
+.Usuario span {
+    margin-top: -20px;
+}
+
 .icone img {
     width: auto;
     height: 2.2vh;
@@ -52,3 +47,22 @@
     height: 2vh;
 }
 
+@media screen and (max-width: 600px) {
+    .LadoEsquerdo .logo {
+        margin: 20px 0px 0px 45%;
+    }
+    .LadoEsquerdo {
+        margin-left: -5px;
+    }
+    .Usuario .texto {
+        display: none;
+    }
+    .log1 {
+        display: none;
+    }
+    .Usuario .user img {
+        border: 0.5px solid transparent;
+        padding: 0.5px;
+        background: linear-gradient(90rad, black, white);
+    }
+}

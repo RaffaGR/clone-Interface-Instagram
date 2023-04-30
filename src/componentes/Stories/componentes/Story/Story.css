@@ -12,6 +12,20 @@
     padding: 1px;
     background: linear-gradient(white, white) padding-box, linear-gradient(to right, #ff9c9c, #870be6, #f700c5) border-box;
 	cursor: pointer;
+    object-fit: cover;
+    animation: bgAn 3s infinite ease;
+}
+
+@keyframes bgAn {
+    0% {
+        background-position: 0;
+    }
+    50% {
+        background-position: 100px;
+    }
+    100% {
+        background-position: 0;
+    }
 }
 
 .Story .imgStory img:hover {

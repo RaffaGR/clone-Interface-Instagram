@@ -6,6 +6,7 @@ import nomeImagem001 from './Post/Imagens/haranha.jpg';
 import imagemPerfil001 from './Post/Imagens/goku.png';
 import imagemPerfil002 from './Post/Imagens/img1.jpeg';
 
+
 export default function Feed() {
     return (
         <div className="Feed">
