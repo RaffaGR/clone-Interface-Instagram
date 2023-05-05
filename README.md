@@ -5,10 +5,10 @@ for instagram page interface clone.
 </h3>
 
 <div align="center">
-  <p>For Windowns</p>
-  <img max-height="160em" src="https://github.com/RaffaGR/clone-Interface-Instagram/blob/main/windowns.png"/>
   <p>For Android</p>
   <img max-height="160em" src="https://github.com/RaffaGR/clone-Interface-Instagram/blob/main/Android.png"/>
+  <p>For Windowns</p>
+  <img max-height="160em" src="https://github.com/RaffaGR/clone-Interface-Instagram/blob/main/windowns.png"/>
 </div>
 
 # Getting Started with Create React App
