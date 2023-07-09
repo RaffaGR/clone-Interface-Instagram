@@ -1,0 +1,60 @@
+.Comentarios {
+  margin-top: 10px;
+  position: relative;
+}
+
+.Comentarios input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 0px solid transparent;
+
+  border-bottom: 2px solid rgb(145, 145, 145);
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.Comentarios button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  color: #0095f6;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 0 4px 4px 0;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Comentarios button.hidden {
+  display: none;
+}
+
+.Comentar {
+  margin-top: 10px;
+}
+
+.Comentar p {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.Comentar {
+  margin-bottom: 8px;
+}
+
+.Comentar p {
+  margin-bottom: 4px;
+}
+
+.ComentariosVerMais {
+  background-color: transparent;
+  color: #0095f6;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0;
+}
+

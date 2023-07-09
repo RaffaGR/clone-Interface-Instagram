@@ -4,8 +4,9 @@ import iconComent from '../icons/bate-papo.png';
 import iconCompart from '../icons/instagram-direto.png';
 import iconMark from '../icons/marca.png';
 
+import Comentarios from './Comentarios/Comentario';
 
-// props = propriedade
+// props permite usar a propriedade por quem importa o Post
 
 export default function Post(props) {
     return(
@@ -22,7 +23,7 @@ export default function Post(props) {
                 <div><img alt='icons' src={iconCompart} /></div>
                 <div><img alt='icons' src={iconMark} /></div>
             </div>
+            <Comentarios />
         </div>
-
     )
 }
