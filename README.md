@@ -9,6 +9,10 @@ for instagram page interface clone.
   <img max-height="160em" src="https://github.com/RaffaGR/clone-Interface-Instagram/blob/main/Android.png"/>
   <p>For Windowns</p>
   <img max-height="160em" src="https://github.com/RaffaGR/clone-Interface-Instagram/blob/main/windowns.png"/>
+  <p>Add Comentarios</p>
+  <img max-height="160em" src="comentarioEsconda.PNG"/>
+  <img max-height="160em" src="comentarioOpen.PNG"/>
+  <img max-height="160em" src="comentarioTest.PNG"/>
 </div>
 
 # Getting Started with Create React App
